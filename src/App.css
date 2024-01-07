@@ -1,0 +1,119 @@
+/* Images */
+body{
+  background-color: rgb(10, 20, 41);
+}
+h1, p{
+  color: white;
+}
+#imageDiv{
+  position: relative;
+  height: 70dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  width: 100%;
+}
+form>input, form>textarea{
+  background-color: #282c34;
+  border: solid #003f6f 1px ;
+  margin: 5px;
+  color: white;
+}
+
+.images{
+  width: 50%;
+  max-height: 95%;
+  display: none;
+  border-radius: 2px;
+}
+.shown{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+/* Comments */
+.countDownBTN, .countUpBTN{
+  width: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 4px rgb(0, 157, 255);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0 2px 0;
+  user-select: none;
+  color: white;
+  background-color: rgb(0, 157, 255);
+
+}
+.countDownBTN:hover,.countUpBTN:hover{
+  background-color: rgb(2, 139, 224);
+  color: rgb(218, 217, 217);
+}
+
+.showCommentContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.indvComments{
+  margin: 2px 0 2px 0;
+  width: 60%;
+  background-color: #2d535e;
+  border-radius: 2px;
+}
+.indvComments>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #367687;
+  padding: 20px;
+}
+.pfp{
+  border-radius: 200px;
+  width: 80px;
+  height: 80px;
+}
+.commentField{
+  resize: none;
+  display: none;
+  width: 45%;
+  height: 150px;
+}
+.authtrue{
+  display: inline;
+}
+.submitComment{
+  padding: 20px;
+}
+
+/* Uh, oh! Secret :eyes: */
+
+.secretInput{
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+/* STUFF I'M TOO SCARED TO REMOVE */
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
